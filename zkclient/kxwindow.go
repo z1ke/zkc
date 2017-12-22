@@ -10,7 +10,7 @@ import (
 	"github.com/companyzero/ttk"
 	"github.com/companyzero/zkc/blobshare"
 	"github.com/davecgh/go-xdr/xdr2"
-	"github.com/nsf/termbox-go"
+	"github.com/gdamore/tcell/termbox"
 )
 
 type kxWindow struct {

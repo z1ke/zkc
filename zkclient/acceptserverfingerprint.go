@@ -13,7 +13,7 @@ import (
 	"github.com/companyzero/ttk"
 	"github.com/companyzero/zkc/tools"
 	"github.com/companyzero/zkc/zkidentity"
-	"github.com/nsf/termbox-go"
+	"github.com/gdamore/tcell/termbox"
 )
 
 type acceptWindow struct {

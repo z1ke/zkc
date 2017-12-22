@@ -39,7 +39,7 @@ import (
 	"github.com/companyzero/zkc/zkidentity"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/davecgh/go-xdr/xdr2"
-	"github.com/nsf/termbox-go"
+	"github.com/gdamore/tcell/termbox"
 )
 
 var (

@@ -21,7 +21,7 @@ import (
 	"github.com/companyzero/zkc/zkidentity"
 	"github.com/companyzero/zkc/zkutil"
 	"github.com/davecgh/go-xdr/xdr2"
-	"github.com/nsf/termbox-go"
+	"github.com/gdamore/tcell/termbox"
 )
 
 const (

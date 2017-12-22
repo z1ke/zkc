@@ -16,7 +16,7 @@ import (
 	"github.com/companyzero/zkc/rpc"
 	"github.com/companyzero/zkc/zkidentity"
 	"github.com/davecgh/go-xdr/xdr2"
-	"github.com/nsf/termbox-go"
+	"github.com/gdamore/tcell/termbox"
 )
 
 type acceptCFPWindow struct {

@@ -29,7 +29,7 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/nsf/termbox-go"
+  name = "github.com/gdamore/tcell"
 
 [[constraint]]
   name = "github.com/pmezard/go-difflib"
