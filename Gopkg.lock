@@ -4,20 +4,33 @@
 [[projects]]
   branch = "master"
   name = "github.com/agl/ed25519"
-  packages = [".","edwards25519"]
+  packages = [
+    ".",
+    "edwards25519"
+  ]
   revision = "5312a61534124124185d41f09206b9fef1d88403"
 
 [[projects]]
   branch = "master"
   name = "github.com/companyzero/sntrup4591761"
-  packages = [".","r3","r3/mod3","r3/vector","rq","rq/modq","rq/vector","zx"]
+  packages = [
+    ".",
+    "r3",
+    "r3/mod3",
+    "r3/vector",
+    "rq",
+    "rq/modq",
+    "rq/vector",
+    "zx"
+  ]
   revision = "f6d504b86dc00c205a94e7588a9abef71faa13c1"
 
 [[projects]]
   branch = "master"
   name = "github.com/companyzero/ttk"
   packages = ["."]
-  revision = "b7b38a8596eec6f0ca13cec2c1e015f3ab3685d1"
+  revision = "ed82e823ab16ef2426ca544d6918f6978f7af0e0"
+  source = "github.com/z1ke/ttk"
 
 [[projects]]
   name = "github.com/davecgh/go-spew"
@@ -30,6 +43,29 @@
   name = "github.com/davecgh/go-xdr"
   packages = ["xdr2"]
   revision = "e6a2ba005892b6a5b27cb5352f64c2e96942dd28"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/gdamore/encoding"
+  packages = ["."]
+  revision = "b23993cbb6353f0e6aa98d0ee318a34728f628b9"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/gdamore/tcell"
+  packages = [
+    ".",
+    "termbox",
+    "terminfo"
+  ]
+  revision = "ac406c22f43e5edff5131f5916cfb7f8177277d1"
+  source = "github.com/z1ke/tcell"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/lucasb-eyer/go-colorful"
+  packages = ["."]
+  revision = "231272389856c976b7500c4fffcc52ddf06ff4eb"
 
 [[projects]]
   branch = "master"
@@ -50,12 +86,6 @@
   revision = "b8bc1bf767474819792c23f32d8286a45736f1c6"
 
 [[projects]]
-  branch = "master"
-  name = "github.com/nsf/termbox-go"
-  packages = ["."]
-  revision = "4ed959e0540971545eddb8c75514973d670cf739"
-
-[[projects]]
   name = "github.com/pmezard/go-difflib"
   packages = ["difflib"]
   revision = "792786c7400a136282c1664665ae0a8db921c6c2"
@@ -70,12 +100,31 @@
 [[projects]]
   branch = "master"
   name = "golang.org/x/crypto"
-  packages = ["curve25519","nacl/secretbox","pbkdf2","poly1305","salsa20/salsa","scrypt"]
-  revision = "c84b36c635ad003a10f0c755dff5685ceef18c71"
+  packages = [
+    "curve25519",
+    "nacl/secretbox",
+    "pbkdf2",
+    "poly1305",
+    "salsa20/salsa",
+    "scrypt"
+  ]
+  revision = "13931e22f9e72ea58bb73048bc752b48c6d4d4ac"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/text"
+  packages = [
+    "encoding",
+    "encoding/internal/identifier",
+    "internal/gen",
+    "transform",
+    "unicode/cldr"
+  ]
+  revision = "e19ae1496984b1c655b8044a65c0300a3c878dd3"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "ad02f37c4e13ce3791345e42b4c37767f1ac92178784a5421a51df7a264ccee8"
+  inputs-digest = "569864f317bca1f41a00bad53c60c64162a8d70dfeacf07e1d6bd570ceaf648b"
   solver-name = "gps-cdcl"
   solver-version = 1
