@@ -10,6 +10,7 @@
 [[constraint]]
   branch = "master"
   name = "github.com/companyzero/ttk"
+  source = "github.com/z1ke/ttk"
 
 [[constraint]]
   name = "github.com/davecgh/go-spew"
@@ -30,6 +31,7 @@
 [[constraint]]
   branch = "master"
   name = "github.com/gdamore/tcell"
+  source = "github.com/z1ke/tcell"
 
 [[constraint]]
   name = "github.com/pmezard/go-difflib"
